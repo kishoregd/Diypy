@@ -1,3 +1,6 @@
+# Object Oriented Programming 
+# Creating classes to manage code effieciently
+
 class Helper:
 
     import numpy as np
@@ -11,5 +14,6 @@ class Helper:
     def addanextrapy2(name,repeat):
         print(name + ("py" * repeat))
     
+    # This function returns a value
     def mytitle(name):
         return ("*" * 10) + (" " * 2) + name.upper() + (" " * 2)  +  ("*" * 10)
