@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>94bb9707-3bd4-4924-b244-ff4f67ec3a10</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Diypy.py</StartupFile>
+    <StartupFile>ReadCSV.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,9 +26,15 @@
     <Compile Include="Helper.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ReadCSV.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda37-64" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Demographic_Statistics_By_Zip_Code.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
